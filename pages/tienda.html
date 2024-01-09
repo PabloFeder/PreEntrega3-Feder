@@ -3,64 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=S, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Ayuda a la comunidad</title>
 </head>
 <body>
     <header>
-        <section class="menu">
-            <div  class="destacado-menu">
-                    <img src="../img/UMM.jpg" alt="Un mundo mejor" class="header-imagen"> 
-           </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Alternar navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../centrodeayuda.html">Centro de ayuda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../pages/refugio.html">Refugio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../pages/cuidadodelanaturaleza.html">Cuidado de la Naturaleza</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
            <div>
-            <nav class="edicion-nav">
-                <ul> 
-                    <li><a href="../index.html">Incio</a></li>
-                    <li> <a href="./centrodeayuda.html">Centro de Ayuda</a></li>
-                    <li><a href="./refugio.html">Refugio</a></li>
-                    <li><a href="./cuidadodelanaturaleza.html">Cuidado de la naturaleza</a></li>
-                    
-                </ul>
-                </nav>
-           </div>
-           <div class="titulo-header">
+            <img src="../img/UMM.jpg" alt="Un mundo mejor" class="header-imagen"> 
             <h1 class="titulo-principal"> Empresa dedicada a ayudar e impactar positivamente en la sociedad mediante un centro de ayuda, un refugio y cuidando la naturaleza </h1>
            </div>
-        </section>
     </header>
     <main>
-        <section>
-            <div>
-                
+        <div>
+            <h2 class="titulo-secciones">Bienvenidos a la tienda de UMM</h2>
+        </div>
+        <div>
+            <h3 class="alineacion">Todos nuestros productos estan hechos con materiales reciclables que juntamos</h3>
+        </div>
+        <div class="row gap-2">
+        <div class="card">
+            <img src="../img/silla.jpeg" class="card-img-top" alt="silla">
+            <div class="card-body">
+              <h4 class="card-title">Silla</h4>
+              <p class="card-text">Silla de exterior </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
-            <div>
-                <h2 class="titulo-secciones">Bienvenidos a la tienda de UMM</h2>
-                <h3 class="alineacion">Todos nuestros productos estan hechos con materiales reciclables que juntamos</h3>
-            </div>
-            <div>
-                <img src="../img/mesa.jpg" alt="Mesa">
-                <h4> Mesa</h4>
-                <p> $40.000</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, ex nihil! Similique, perspiciatis nesciunt debitis cumque dolorem dicta quasi est sapiente vitae, nihil veritatis incidunt illo optio quae velit voluptatem?</p>
-                <a href="">Comprar</a>
+          </div>
 
+          <div class="card">
+            <img src="../img/mesa.jpg" class="card-img-top" alt="mesa">
+            <div class="card-body">
+              <h4 class="card-title">Mesa</h4>
+              <p class="card-text">Mesa de escritorio de un cuerpo</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
-            <div>
-                <img src="../img/silla.jpeg" alt="Silla">
-                <h4>Silla</h4>
-                <p>$25.000</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur quidem laborum, quas modi dolores iste debitis natus sit ullam nihil soluta assumenda cum aliquid excepturi rem harum consectetur! Vero, distinctio.</p>
-                <a href="">Comprar</a>
-             </div>
+          </div>
 
-             <div>
-                <img src="../img/sillon.jpg" alt="sillon">
-                <h4>Sillon</h4>
-                <p>$55.000</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium exercitationem earum illo, eius nihil magni commodi modi. Tempore at quisquam nihil, nobis voluptatem molestias possimus, nulla veniam, delectus illum atque.</p>
-                <a href="">Comprar</a>
-             </div>
-        </section>
+          <div class="card">
+            <img src="../img/sillon.jpg" class="card-img-top" alt="sillon">
+            <div class="card-body">
+              <h4 class="card-title">Sillon de un cuerpo</h4>
+              <p class="card-text">Sillon de un cuerpo</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
     </main>
     <footer>
         <section class="grilla-footer">
@@ -85,6 +102,6 @@
                 <p> umm.mp </p>
             </div>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
