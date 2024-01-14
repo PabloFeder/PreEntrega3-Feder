@@ -229,4 +229,15 @@ img{
     .tamano-foto{
         width: 70vh;
     }
+    /* -----TIENDA------ */
+    .grilla-tienda{
+        display: grid;
+        grid-template-columns: 30% 30% 30% ;
+        padding: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        gap: 3rem;
+    }
 }
