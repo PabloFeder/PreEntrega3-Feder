@@ -1,0 +1,15 @@
+.alineacion{
+    text-align: center;
+ }
+ @media (min-width:768px){
+    .grilla-tienda{
+        display: grid;
+        grid-template-columns: 30% 30% 30% ;
+        gap: 3rem;
+        &-posicion{
+            display: flex;
+            justify-content: center;
+            gap: 5rem;
+        }
+    }
+}

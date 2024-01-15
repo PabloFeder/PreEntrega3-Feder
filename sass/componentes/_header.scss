@@ -1,0 +1,26 @@
+.header-grilla{
+    display: grid;
+    grid-template-rows: 1fr 1/2fr;
+    gap: 1rem;
+}
+.header-imagen{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 35vh;
+}
+.texto-titulo{
+    text-align: center;
+    font-family: $ff-titulo-principal;
+}
+
+@media (min-width:768px){
+    .header-grilla{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .header-imagen{
+        width: 40%;
+    }
+}
