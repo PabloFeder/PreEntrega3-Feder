@@ -228,16 +228,33 @@ img {
   text-align: center;
 }
 
+.grilla-tienda {
+  display: grid;
+  padding: 2rem;
+  grid-template-rows: 30% 30% 30%;
+  gap: 3rem;
+}
+.grilla-tienda-posicion {
+  display: flex;
+  justify-content: center;
+}
+.grilla-tienda-espacio {
+  max-height: 35vh;
+}
+
 @media (min-width: 768px) {
   .grilla-tienda {
     display: grid;
+    padding: 2rem;
     grid-template-columns: 30% 30% 30%;
     gap: 3rem;
   }
   .grilla-tienda-posicion {
     display: flex;
     justify-content: center;
-    gap: 5rem;
+  }
+  .grilla-tienda-espacio {
+    max-height: 40vh;
   }
 }
 
