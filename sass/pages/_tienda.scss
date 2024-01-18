@@ -1,33 +1,40 @@
-.alineacion{
+.alineacion {
     text-align: center;
- }
- .grilla-tienda{
+}
+
+.grilla-tienda {
     display: grid;
     padding: 2rem;
-    grid-template-rows: 30% 30% 30% ;
+    grid-template-rows: 30% 30% 30%;
     gap: 3rem;
-    &-posicion{
+
+    &-posicion {
         display: flex;
         justify-content: center;
     }
-    &-espacio{
+
+    &-espacio {
         max-height: 35vh;
-    }  
+    }
 }
-.edicicion-tarjetas{
+
+.edicicion-tarjetas {
     border: 10px solid, black;
 }
- @media (min-width:768px){
-    .grilla-tienda{
+
+@media (min-width:768px) {
+    .grilla-tienda {
         display: grid;
         padding: 2rem;
-        grid-template-columns: 30% 30% 30% ;
+        grid-template-columns: 30% 30% 30%;
         gap: 3rem;
-        &-posicion{
+
+        &-posicion {
             display: flex;
             justify-content: center;
         }
-        &-espacio{
+
+        &-espacio {
             max-height: 40vh;
         }
     }
